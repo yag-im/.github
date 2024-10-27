@@ -13,14 +13,6 @@ repository:
   allow_rebase_merge: false
   delete_branch_on_merge: true
   enable_vulnerability_alerts: true
-labels:
-  - name: bug
-    color: CC0000
-    description: An issue with the system.
-
-  - name: feature
-    color: '#336699'
-    description: New functionality.
 branches:
   - name: main
     # https://docs.github.com/en/rest/reference/repos#update-branch-protection
