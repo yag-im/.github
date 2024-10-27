@@ -1,17 +1,21 @@
 repository:
+  # https://docs.github.com/en/rest/reference/repos#update-a-repository
   allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
-  squash_merge_commit_title: PR_TITLE
-  squash_merge_commit_message: PR_BODY
   delete_branch_on_merge: true
   enable_automated_security_fixes: true
   enable_vulnerability_alerts: true
-
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+  homepage: https://yag.im
+  private: false
+  squash_merge_commit_message: PR_BODY
+  squash_merge_commit_title: PR_TITLE
 branches:
   - name: main
     # https://docs.github.com/en/rest/reference/repos#update-branch-protection
-    # Branch Protection settings. Set to null to disable
     protection:
       required_status_checks: null
       enforce_admins: false
