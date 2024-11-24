@@ -10,14 +10,13 @@ required, and completely free. Our guiding principles include:
 - Fully Open Source platform: all code is open and accessible;
 - Multi-OS Support: utilizing containerized environments for diverse game runners;
 - Installer-as-Code: easily contribute or update installers via GitHub PRs;
-- Unified Gameplay Experience: seamless play in any modern browser (in a full-screen mode) with minimal load delays and
-input lag.
+- Unified Gameplay Experience: seamless play in any modern browser with minimal load delays and input lag.
 
 # Technology Stack
 
-- Scalable, highly-available architecture: microservices (K8S, minikube);
+- Scalable, highly-available architecture: microservices (K8S for prod, minikube for dev);
 - Smooth gameplay streaming: WebRTC (gstreamer), supporting:
-    - both X11 and Wayland frames capturing; 
+    - X11 and Wayland frames capturing; 
     - video encoding hardware offload: iGPU (Intel HD), Nvidia;
 - Games runners: DosBox, Wine, ScummVM etc wrapped into portable platform-independent containers (docker);
 - Distributed NFS-based cloud storage with CoW support (BTRFS).
@@ -50,18 +49,24 @@ Based on your experience, choose one of the operational modes listed below.
 ## Gamer Mode
 
 Visit [yag.im](https://yag.im), find your favorite game and start playing. Try few games to let the platform choose the 
-closest data center for you (TODO: make DC selection preemptive). If you can't find your favorite game, share your 
+closest data center for you (TODO: make DC selection preemptive :). If you can't find your favorite game, share your 
 requests for new games on our [Discord Channel](https://discord.gg/N4QavHBBAG).
 
-## Self-Hosted Mode
+## Self-Hosted Gamer Mode
 
-This is for when you want to deploy and host `yag.im` in your own cloud or local infrastructure with minimal effort.
-Begin by following the [Self-Hosted Mode](https://github.com/yag-im/infra/blob/main/docs) tutorial.
+This is for advanced gamers, when you want to deploy and host `yag.im` in your own cloud or local infrastructure with 
+minimal effort. Begin by following the 
+[Self-Hosted](https://github.com/yag-im/infra/blob/main/docs/dev-local.md) 
+tutorial.
 
-## Developer Mode
+## New Installers (Ports) Creator
 
-If you want to contribute to development, deploy `yag.im` services locally following the 
-[Developer Mode](https://github.com/yag-im/infra/blob/main/docs) 
-instructions. Keep in mind that you can add new installers by following the 
+In this mode, you can contribute to the project by creating new installers (ports) using 
 [Adding New Installers (Ports)](https://github.com/yag-im/ports/blob/main/docs/NEW_PORT.md)
-tutorial, eliminating the need for the lengthy local setup process.
+tutorial; this also eliminates the need for the lengthy local setup process.
+
+## Code Contributor (Developer Mode)
+
+If you want to contribute to development of this project, deploy all `yag.im` components locally following the 
+[Developer](https://github.com/yag-im/infra/blob/main/docs/dev-mode.md) 
+instructions.
