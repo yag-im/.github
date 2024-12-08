@@ -62,7 +62,7 @@ tutorial.
 ## New Installers (Ports) Creator
 
 In this mode, you can contribute to the project by creating new installers (ports) using 
-[Adding New Installers (Ports)](https://github.com/yag-im/ports/blob/main/docs/NEW_PORT.md)
+[Adding New Installers (Ports)](https://github.com/yag-im/ports/blob/main/docs/new-port.md)
 tutorial; this also eliminates the need for the lengthy local setup process.
 
 ## Code Contributor (Developer Mode)
