@@ -23,24 +23,27 @@ required, and completely free. Our guiding principles include:
 
 # Alternatives
 
-## Cloud Gaming Platforms (Amazon Luna)
+## Cloud gaming platforms (Amazon Luna)
 
 Proprietary Google Stadia (RIP), Amazon Luna and others mostly target AAA games or specific platforms (like Xbox Cloud 
 Gaming and PlayStation Plus Premium). While Amazon Luna's collaboration with GOG looks promising for retro gamers, the 
-collection remains tiny, and you still need to pay even if you own the original media.
+collection remains tiny, and you still need to pay to play even if you own the original media.
 
-## Online Gaming Platforms (Steam, GOG)
+## Online gaming platforms (Steam, GOG)
 
 These proprietary platforms have recently expanded their libraries of classic video games, but it's still required to 
 purchase all games you want to play even if you own the original media. Also, not all games run on every OS (e.g. some 
 require Windows and won't start on Linux).
 
-## Local Games Organizers (Lutris, "Wine wrappers" etc)
+## Local games organizers (Lutris, "Wine wrappers" etc) with streaming solutions.
 
 Lutris excels at enabling native gameplay on Linux with strong community support. However, maintenance of installers 
 can be cumbersome, and most of them are just stubs linking to GOG and Steam. Non-stub installers often lack quality. 
 Because it relies on native components, it is limited to Linux OS. Even on Linux, launching a game can be quite the 
 challenge due to OS dependencies across different Linux distributions.
+In conjunction with popular open-source streaming solutions like Moonlight and Sunshine, you can create a DIY 
+"cloud gaming" platform. This is likely where an experienced user would begin, provided they know how to configure all 
+the components.
 
 # Where to Start
 
