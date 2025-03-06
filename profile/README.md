@@ -59,7 +59,7 @@ requests for new games on our [Discord Channel](https://discord.gg/N4QavHBBAG).
 
 This is for advanced gamers, when you want to deploy and host `yag.im` in your own cloud or local infrastructure with 
 minimal effort. Begin by following the 
-[Self-Hosted](https://github.com/yag-im/infra/blob/main/docs/dev-local.md) 
+[Self-Hosted](https://github.com/yag-im/infra/blob/main/docs/local-mk.md) 
 tutorial.
 
 ## New Installers (Ports) Creator
@@ -71,5 +71,5 @@ tutorial; this also eliminates the need for the lengthy local setup process.
 ## Code Contributor (Developer Mode)
 
 If you want to contribute to development of this project, deploy all `yag.im` components locally following the 
-[Developer](https://github.com/yag-im/infra/blob/main/docs/dev-mode.md) 
+[Developer](https://github.com/yag-im/infra/blob/main/docs/local-dc.md) 
 instructions.
