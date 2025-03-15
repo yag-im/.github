@@ -14,7 +14,7 @@ required, and completely free. Our guiding principles include:
 
 ## Technology Stack
 
-- Scalable, highly-available architecture: microservices (K8S for prod, minikube for local mode);
+- Scalable, highly-available architecture: microservices (K8S for cloud, minikube for local deployments);
 - Smooth gameplay streaming: WebRTC (gstreamer), supporting:
     - X11 and Wayland frames capturing; 
     - video encoding hardware offload: iGPU (Intel HD), Nvidia;
@@ -29,18 +29,24 @@ Proprietary Google Stadia (RIP), Amazon Luna and others mostly target AAA games 
 Gaming and PlayStation Plus Premium). While Amazon Luna's collaboration with GOG looks promising for retro gamers, the 
 collection remains tiny, and you still need to pay to play even if you own the original media.
 
-### Online gaming platforms (Steam, GOG)
+### Offline gaming platforms (Steam, GOG)
 
 These proprietary platforms have recently expanded their libraries of classic video games, but it's still required to 
 purchase all games you want to play even if you own the original media. Also, not all games run on every OS (e.g. some 
 require Windows and won't start on Linux).
 
-### Local games organizers (Lutris, "Wine wrappers" etc) with streaming solutions.
+### Local games organizers (Lutris, "Wine wrappers" etc)
 
 Lutris excels at enabling native gameplay on Linux with strong community support. However, maintenance of installers 
 can be cumbersome, and most of them are just stubs linking to GOG and Steam. Non-stub installers often lack quality. 
 Because it relies on native components, it is limited to Linux OS. Even on Linux, launching a game can be quite the 
 challenge due to OS dependencies across different Linux distributions.
+
+exo [ScummVM, DOS, etc.] is an impressive collection of games spanning various genres and years. However, it lacks 
+community support for adding new installers and primarily supports local execution in a Windows environment, with 
+limited Linux compatibility. The `yag.im` project has ported many games from exo, which can be found by searching for 
+e.g. the `exoscummvm` keyword in the [ports](https://github.com/yag-im/ports) collection.
+
 In conjunction with popular open-source streaming solutions like Moonlight and Sunshine, you can create a DIY 
 "cloud gaming" platform. This is likely where an experienced user would begin, provided they know how to configure all 
 the components.
@@ -49,29 +55,30 @@ the components.
 
 Based on your experience, choose one of the operational modes listed below.
 
-### Gamer Mode
+### Managed Cloud Gamer Mode
 
 Visit [yag.im](https://yag.im), find your favorite game and start playing. Try few games to let the platform choose the 
 closest data center for you (TODO: make DC selection preemptive :). If you can't find your favorite game, share your 
 requests for new games on our [Discord Channel](https://discord.gg/N4QavHBBAG).
 
-### Self-Hosted Gamer Mode
+### Unmanaged Gamer Mode
 
 This is for advanced gamers, when you want to deploy and host `yag.im` in your own cloud or local infrastructure with 
-minimal effort. Begin by following the 
-[Self-Hosted](https://github.com/yag-im/infra/blob/main/docs/local-mk.md) 
-tutorial.
+minimal effort. To get started, follow the
+[Self-Hosted setup](https://github.com/yag-im/infra/blob/main/docs/local-mk.md) 
+guide for a local installation or the [Cloud setup](https://github.com/yag-im/infra/blob/main/docs/cloud-dev.md) guide 
+for cloud deployment.
 
 ### New Installers (Ports) Creator
 
-In this mode, you can contribute to the project by creating new installers (ports) using 
+In this mode, you can contribute to the project by creating new installers (ports). Start with 
 [Adding New Installers (Ports)](https://github.com/yag-im/ports/blob/main/docs/new-port.md)
-tutorial; this also eliminates the need for the lengthy local setup process.
+tutorial.
 
 ### Code Contributor (Developer Mode)
 
 If you want to contribute to development of this project, deploy all `yag.im` components locally following the 
-[Developer](https://github.com/yag-im/infra/blob/main/docs/local-dc.md) 
+[Developer setup](https://github.com/yag-im/infra/blob/main/docs/local-dc.md) 
 instructions.
 
 ## DMCA / Removal request
