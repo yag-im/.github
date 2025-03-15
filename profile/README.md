@@ -37,15 +37,15 @@ require Windows and won't start on Linux).
 
 ### Local games organizers
 
-Lutris excels at enabling native gameplay on Linux with strong community support. However, maintenance of installers 
-can be cumbersome, and most of them are just stubs linking to GOG and Steam. Non-stub installers often lack quality. 
-Because it relies on native components, it is limited to Linux OS. Even on Linux, launching a game can be quite the 
-challenge due to OS dependencies across different Linux distributions.
+[Lutris](https://lutris.net/) excels at enabling native gameplay on Linux with strong community support. However, 
+maintenance of installers can be cumbersome, and most of them are just stubs linking to GOG and Steam. Non-stub 
+installers often lack quality. Because it relies on native components, it is limited to Linux OS. Even on Linux, 
+launching a game can be quite the challenge due to OS dependencies across different Linux distributions.
 
-exo [ScummVM, DOS, etc.] is an impressive collection of games spanning various genres and years. However, it lacks 
-community support for adding new installers and primarily supports local execution in a Windows environment, with 
-limited Linux compatibility. The `yag.im` project has ported many games from exo, which can be found by searching for 
-e.g. the `exoscummvm` keyword in the [ports](https://github.com/yag-im/ports) collection.
+[retro-exo]](https://www.retro-exo.com/) is an impressive collection of games spanning various genres and years. 
+However, it lacks community support for adding new installers and primarily supports local execution in a Windows 
+environment, with some Linux compatibility. The `yag.im` project has ported many games from exo, which can be found by 
+searching e.g. the `exoscummvm` keyword in the [ports](https://github.com/yag-im/ports) collection.
 
 Many "Wine wrappers" are designed to work with a single runner (Wine) and offer limited support across different 
 platforms.
