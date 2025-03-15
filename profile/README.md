@@ -23,19 +23,19 @@ required, and completely free. Our guiding principles include:
 
 ## Alternatives
 
-### Cloud gaming platforms (Amazon Luna)
+### Cloud gaming platforms
 
 Proprietary Google Stadia (RIP), Amazon Luna and others mostly target AAA games or specific platforms (like Xbox Cloud 
 Gaming and PlayStation Plus Premium). While Amazon Luna's collaboration with GOG looks promising for retro gamers, the 
 collection remains tiny, and you still need to pay to play even if you own the original media.
 
-### Offline gaming platforms (Steam, GOG)
+### Offline gaming platforms
 
 These proprietary platforms have recently expanded their libraries of classic video games, but it's still required to 
 purchase all games you want to play even if you own the original media. Also, not all games run on every OS (e.g. some 
 require Windows and won't start on Linux).
 
-### Local games organizers (Lutris, "Wine wrappers" etc)
+### Local games organizers
 
 Lutris excels at enabling native gameplay on Linux with strong community support. However, maintenance of installers 
 can be cumbersome, and most of them are just stubs linking to GOG and Steam. Non-stub installers often lack quality. 
@@ -46,6 +46,9 @@ exo [ScummVM, DOS, etc.] is an impressive collection of games spanning various g
 community support for adding new installers and primarily supports local execution in a Windows environment, with 
 limited Linux compatibility. The `yag.im` project has ported many games from exo, which can be found by searching for 
 e.g. the `exoscummvm` keyword in the [ports](https://github.com/yag-im/ports) collection.
+
+Many "Wine wrappers" are designed to work with a single runner (Wine) and offer limited support across different 
+platforms.
 
 In conjunction with popular open-source streaming solutions like Moonlight and Sunshine, you can create a DIY 
 "cloud gaming" platform. This is likely where an experienced user would begin, provided they know how to configure all 
