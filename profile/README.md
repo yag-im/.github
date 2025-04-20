@@ -29,7 +29,7 @@ Proprietary Google Stadia (RIP), Amazon Luna and others mostly target AAA games 
 Gaming and PlayStation Plus Premium). While Amazon Luna's collaboration with GOG looks promising for retro gamers, the 
 collection remains tiny, and you still need to pay to play even if you own the original media.
 
-### Offline gaming platforms
+### "Offline" gaming platforms
 
 These proprietary platforms have recently expanded their libraries of classic video games, but it's still required to 
 purchase all games you want to play even if you own the original media. Also, not all games run on every OS (e.g. some 
@@ -42,10 +42,14 @@ maintenance of installers can be cumbersome, and most of them are just stubs lin
 installers often lack quality. Because it relies on native components, it is limited to Linux OS. Even on Linux, 
 launching a game can be quite the challenge due to OS dependencies across different Linux distributions.
 
-[retro-exo]](https://www.retro-exo.com/) is an impressive collection of games spanning various genres and years. 
+[retro-exo](https://www.retro-exo.com/) is an impressive collection of games spanning various genres and years. 
 However, it lacks community support for adding new installers and primarily supports local execution in a Windows 
 environment, with some Linux compatibility. The `yag.im` project has ported many games from exo, which can be found by 
 searching e.g. the `exoscummvm` keyword in the [ports](https://github.com/yag-im/ports) collection.
+
+[LaunchBox](https://www.launchbox-app.com/) includes automated import processes for modern Steam games and GOG classics, 
+ROM files, MS-DOS games, and more. LaunchBox is like Lutris but with a more commercial, polished approach—prioritizing 
+UI, ease of use, and a more refined experience. Windows-based but there is an Android version as well.
 
 Many "Wine wrappers" are designed to work with a single runner (Wine) and offer limited support across different 
 platforms.
@@ -90,7 +94,7 @@ instructions.
 
 Be sure the game you are asking to be removed actually contains the copyrighted content you are inquiring about.
 
-yag.im does implement game pages that act as informational pages for promotional purposes only. Play a game, inspect it, and if it is indeed your copyrighted work, contact us. To send a claim, include the following information:
+`yag.im` does implement game pages that act as informational pages for promotional purposes only. Play a game, inspect it, and if it is indeed your copyrighted work, contact us. To send a claim, include the following information:
 
 - Identification of the copyrighted work whose copyright you claim has been infringed.
 - An exact description of where the material in question is located within yag.im.
